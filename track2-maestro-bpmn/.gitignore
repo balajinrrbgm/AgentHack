@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.Python
+build/
+dist/
+*.egg-info/
+venv/
+.venv/
+ENV/
+
+# Secrets
+.env
+*.env
+!.env.example
+secrets/
+
+# UiPath
+*.nupkg
+.local/
+.objects/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Node
+node_modules/
